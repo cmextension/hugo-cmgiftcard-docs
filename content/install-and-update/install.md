@@ -3,11 +3,11 @@ title: Install CM Gift Card
 weight: 1
 ---
 
-Log into your Joomla! back-end. On the top menu, you navigate to Extensions -> Manage -> Install.
+Log into your Joomla! back-end, click `System` in the left navigation, click `Extensions` in `Install` card.
 
 ![](/images/installation_01.jpg)
 
-In "Upload Package File" section, you click "Browse" button and select the package of CM Gift Card that you downloaded from our website, click "Upload & Install" button to upload the package to your server to install.
+In `Upload Package File` tab, you drag and drop the package of CM Gift Card that you downloaded from our website or click `Or browse for file` button and select it from your computer.
 
 ![](/images/installation_02.jpg)
 

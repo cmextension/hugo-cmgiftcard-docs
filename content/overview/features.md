@@ -3,7 +3,7 @@ title: Features
 weight: 2
 ---
 
-For site owner:
+## For Site Owner:
 
 * Manage gift card designs, orders, purchased gift cards.
 * Edit email templates.
@@ -13,8 +13,22 @@ For site owner:
 * Use Joomla! group for staff (the one who can check gift card info in front-end).
 * Many configuration options.
 
-For customer:
+## For Customer:
 
 * Include message to recipient.
-* Choose custom delivery date for electronic gift card, the card will be delivered in a specific date in future.
+* Choose custom delivery date for electronic gift card, the card will be delivered on a specific date in future.
 * Use a custom name on gift card which is different to the name in billing info.
+* Order history (only for registered users).
+
+## Supported Payment Methods
+
+* [Authorize.Net (Accept Hosted)](https://authorize.net)
+* [eWAY](https://eway.com.au)
+* [iDEAL](https://ideal.nl)
+* [MercadoPago](https://mercadopago.com.ar)
+* [MyGate](https://mygateglobal.com)
+* Offline (customer places order but needs to send money to site owner offline)
+* [Paybox](https://paybox.com)
+* [PayPal](https://paypal.com)
+* [Unicredit](https://unicredit.it)
+* [VoguePay](https://voguepay.com)
