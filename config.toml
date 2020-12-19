@@ -2,3 +2,5 @@ baseURL = "http://localhost:1313/"
 languageCode = "en-us"
 title = "CM Gift Card Documentation"
 theme = "geekdoc"
+pygmentsUseClasses=true
+pygmentsCodeFences=true

@@ -1,4 +1,4 @@
 ---
 title: Install & Upgrade
-weight: 1
+weight: 20
 ---
