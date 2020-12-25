@@ -10,9 +10,9 @@ The general command to run CM Gift Card cron job is:
 
 php5 /path/to/your/joomla/administrator/components/com\_cmgiftcard/cron.php
 
-“php5” is the command of PHP CLI. Depending on your server’s setup, the command could be different, you need to contact your hosting provider for knowing the correct command.
+"php5" is the command of PHP CLI. Depending on your server's setup, the command could be different, you need to contact your hosting provider for knowing the correct command.
 
-If the path to Joomla!’s installation folder is
+If the path to Joomla!'s installation folder is
 
 /home/username/public\_html/
 
@@ -22,6 +22,6 @@ the path to the cron job file could be
 
 Once the cron job runs, it checks for the gift cards which should be sent on the current date and send them to recipients.
 
-You need to enter your site’s URL into “Site URL” option in CM Gift Card’s configuration to help cron job script know your site’s URL.
+You need to enter your site's URL into "Site URL" option in CM Gift Card's configuration to help cron job script know your site's URL.
 
-![/images/configuration_06.jpg](/images/configuration_06.jpg)
+![](/images/configuration_06.jpg)

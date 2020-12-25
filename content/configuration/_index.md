@@ -4,7 +4,7 @@ weight: 30
 ---
 After installing CM Gift Card, you can find it under `Components` menu item in the left navigation.
 
-![/images/configuration_01.jpg](/images/configuration_01.jpg)
+![](/images/configuration_01.jpg)
 
 CM Gift Card has 7 pages, you can find these pages in the navigation:
 
@@ -16,7 +16,7 @@ CM Gift Card has 7 pages, you can find these pages in the navigation:
 * Predefined Gift Card Codes
 * Tools
 
-![/images/configuration_02.jpg](/images/configuration_02.jpg)
+![](/images/configuration_02.jpg)
 
 To configure CM Gift Card, you access any pages of CM Gift Card and click the `Options` button on the top right of the page.
 
@@ -33,4 +33,4 @@ The configuration options are split into these following tabs:
 * Checkout
 * Permissions
 
-![/images/configuration_03.jpg](/images/configuration_03.jpg)
+![](/images/configuration_03.jpg)

@@ -23,8 +23,8 @@ weight: 2
 ## Supported Payment Methods
 
 * [Authorize.Net (Accept Hosted)](https://authorize.net)
-* [eWAY](https://eway.com.au)
-* [iDEAL](https://ideal.nl)
+* [eWAY (Responsive Shared Page)](https://eway.com.au)
+* [iDEAL (Mollie)](https://ideal.nl)
 * [MercadoPago](https://mercadopago.com.ar)
 * [MyGate](https://mygateglobal.com)
 * Offline (customer places order but needs to send money to site owner offline)

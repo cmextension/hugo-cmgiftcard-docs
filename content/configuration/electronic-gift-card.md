@@ -2,8 +2,10 @@
 title: Electronic Gift Card
 weight: 40
 ---
-![/images/configuration_06.jpg](/images/configuration_06.jpg)
+![](/images/configuration_06.jpg)
 
-The configuration options of electronic gift card are the same to physical gift card. There is one option which only electronic gift card has:
+Most of the configuration options of electronic gift card are the same to physical gift card. There are a few options which only electronic gift card has:
 
-*   **Site URL**: Electronic gift cards can be sent via cron job, because cron job runs a PHP script in command line environment so it can’t get your site’s URL, you need to enter your site’s URL to let CM Gift Card’s cron job script knows your site’s URL and inserts it in emails sent to gift card recipients.
+* **Allow Selecting Delivery Date**: Allow customer to select a date when gift card is sent. If this option is disabled, gift card is sent immediately. 
+* **PDF Gift Card**: Enable PDF gift card and attach it to gift card email. mPDF library is required to generate PDF gift card.
+* **PDF Gift Card Template**: The HTML template for PDF gift card, this HTML is converted to PDF.

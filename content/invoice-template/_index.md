@@ -2,31 +2,31 @@
 title: Invoice Template
 weight: 150
 ---
-CM Gift Card gives you ability to attach a PDF invoice of customer order into the email sent to customer after payment is completed. To use this feature you need to enable it in CM Gift Card’s configuration and install mPDF library.
+CM Gift Card gives you ability to attach a PDF invoice of customer order into the email sent to customer after payment is completed. To use this feature you need to enable it in CM Gift Card's configuration and install mPDF library.
 
-You can design your invoice template in CM Gift Card’s configuration by using HTML and CSS. After invoice is generated, it is converted to PDF by mPDF library and is attached to order confirmation email.
+You can design your invoice template in CM Gift Card's configuration by using HTML and CSS. After invoice is generated, it is converted to PDF by mPDF library and is attached to order confirmation email.
 
-![/images/configuration_08.jpg](/images/configuration_08.jpg)
+![](/images/configuration_08.jpg)
 
 Here are the available tags for invoice. They will be converted to actual info of customer and order before being sent to customer.
 
-*   {customer\_name}: Customer’s name
-*   {customer\_email}: Customer’s email address
-*   {customer\_address\_1}: Customer’s address line 1
-*   {customer\_address\_2}: Customer’s address line 2
-*   {customer\_address\_3}: Customer’s address line 3
-*   {customer\_postal\_box}: Customer’s postal box
-*   {customer\_city}: Customer’s city
-*   {customer\_state}: Customer’s state
-*   {customer\_postal\_code}: Customer’s postal code
-*   {customer\_country}: Customer’s country
-*   {order\_number}: Order’s number
-*   {order\_date}: Order’s completed date or created date
-*   {payment\_method}: Payment method’s name
-*   {transaction\_id}: Transaction ID
-*   {order\_items}: List of order items (gift cards)
+* {customer\_name}: Customer's name
+* {customer\_email}: Customer's email address
+* {customer\_address\_1}: Customer's address line 1
+* {customer\_address\_2}: Customer's address line 2
+* {customer\_address\_3}: Customer's address line 3
+* {customer\_postal\_box}: Customer's postal box
+* {customer\_city}: Customer's city
+* {customer\_state}: Customer's state
+* {customer\_postal\_code}: Customer's postal code
+* {customer\_country}: Customer's country
+* {order\_number}: Order's number
+* {order\_date}: Order's completed date or created date
+* {payment\_method}: Payment method's name
+* {transaction\_id}: Transaction ID
+* {order\_items}: List of order items (gift cards)
 
-There is a special tag, “{order\_items}”, which shows the list of gift cards in order. By default, the result of “{order\_items}” is a table HTML element (<table>), the code which generates this table is in
+There is a special tag, "{order\_items}", which shows the list of gift cards in order. By default, the result of "{order\_items}" is a table HTML element (<table>), the code which generates this table is in
 
 administrator/components/com\_cmgiftcard/layouts/invoice\_items.php.
 
@@ -34,9 +34,9 @@ To customize this output of order items, you create a new file
 
 administrator/components/com\_cmgiftcard/layouts/invoice\_items\_custom.php
 
-Copy the content of invoice\_items.php and paste into invoice\_items\_custom.php and start customize invoice\_items\_custom.php. Your own customizations will not be lost when you upgrade CM Gift Card because the file invoice\_items\_custom.php doesn’t exist in CM Gift Card.
+Copy the content of invoice\_items.php and paste into invoice\_items\_custom.php and start customize invoice\_items\_custom.php. Your own customizations will not be lost when you upgrade CM Gift Card because the file invoice\_items\_custom.php doesn't exist in CM Gift Card.
 
-Here is a sample invoice template. Copy the HTML code below, switch the editor of invoice template file to HTML mode (if you use TinyMCE editor, click “Toggle editor” button), paste the code into the editor, switch back to What-You-See-Is-What-You-Get (WYSIWYG) mode to see the result (click “Toggle editor” button again for TinyMCE):
+Here is a sample invoice template. Copy the HTML code below, switch the editor of invoice template file to HTML mode (if you use TinyMCE editor, click "Toggle editor" button), paste the code into the editor, switch back to What-You-See-Is-What-You-Get (WYSIWYG) mode to see the result (click "Toggle editor" button again for TinyMCE):
 
 
 {{< highlight Shell "linenos=table" >}}
@@ -149,4 +149,4 @@ Here is a sample invoice template. Copy the HTML code below, switch the editor o
 {{< /highlight >}}
 
 
-Please don’t hesitate to contact us if you need help in customize invoice template and gift card list in invoice.
+Please don't hesitate to contact us if you need help in customize invoice template and gift card list in invoice.
