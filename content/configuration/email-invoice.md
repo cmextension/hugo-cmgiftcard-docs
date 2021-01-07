@@ -2,7 +2,7 @@
 title: Email & Invoice
 weight: 60
 ---
-![](/images/configuration_08.jpg)
+![](/images/configuration_09.jpg)
 
 * **Send A Copy Of Email To Administrators**: If you enable this option, administrators will receive a copy of customer's order email which is sent to customer after purchase is completed.
 * **Prefix For Copied Email's Subject**: If you send a copy of customer's order email to administrators, you can use this option to add a special prefix to email subject. This gives you ability to filter these emails easily in your inbox.

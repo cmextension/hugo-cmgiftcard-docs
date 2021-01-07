@@ -2,7 +2,7 @@
 title: Physical Gift Card 
 weight: 30
 ---
-![](/images/configuration_05.jpg)
+![](/images/configuration_06.jpg)
 
 The following information are shown on the page where your customers choose between physical gift card and electronic gift card.
 

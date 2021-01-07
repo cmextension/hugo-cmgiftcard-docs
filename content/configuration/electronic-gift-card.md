@@ -2,7 +2,7 @@
 title: Electronic Gift Card
 weight: 40
 ---
-![](/images/configuration_06.jpg)
+![](/images/configuration_07.jpg)
 
 Most of the configuration options of electronic gift card are the same to physical gift card. There are a few options which only electronic gift card has:
 
