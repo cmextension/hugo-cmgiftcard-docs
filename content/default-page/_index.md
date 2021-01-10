@@ -5,15 +5,15 @@ weight: 80
 
 Default page (or Home page) is the first page customers access to select the type of gift card to send - electronic gift card or traditional physical gift card.
 
-To create a menu item for this page, you select the menu where you want to create this menu item in the left navigation. Click the "New" button on the toolbar to create a new menu item.
+To create a menu item for this page, you select the menu where you want to create this menu item in the left navigation. Click the `New` button on the toolbar to create a new menu item.
 
 ![](/images/default_01.jpg)
 
-Click "Select" button of "Menu Item Type" option to select menu item type.
+Click `Select` button of `Menu Item Type` option to select menu item type.
 
 ![](/images/default_02.jpg)
 
-Select "Default" in the next popup.
+Select `Default` menu item type of CM Gift Card in the next popup.
 
 ![](/images/menu_item_types.jpg)
 
