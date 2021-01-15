@@ -5,7 +5,7 @@ weight: 80
 
 Default page (or Home page) is the first page customers access to select the type of gift card to send - electronic gift card or traditional physical gift card.
 
-To create a menu item for this page, you select the menu where you want to create this menu item in the left navigation. Click the `New` button on the toolbar to create a new menu item.
+To create a menu item for this page, you select the menu where you want to create this menu item in the left menu. Click the `New` button on the toolbar to create a new menu item.
 
 ![](/images/default_01.jpg)
 

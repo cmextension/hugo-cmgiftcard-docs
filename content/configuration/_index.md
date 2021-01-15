@@ -2,7 +2,7 @@
 title: Configuration
 weight: 30
 ---
-After installing CM Gift Card, you can find it under `Components` menu item in the left navigation.
+After installing CM Gift Card, you can find it under `Components` menu item in the left menu.
 
 ![](/images/configuration_01.jpg)
 

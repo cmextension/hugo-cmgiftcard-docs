@@ -3,7 +3,7 @@ title: Install CM Gift Card
 weight: 1
 ---
 
-Log into your Joomla! back-end, click `System` in the left navigation, click `Extensions` in `Install` card.
+Log into your Joomla! back-end, click `System` in the left menu, click `Extensions` in `Install` card.
 
 ![](/images/installation_01.jpg)
 

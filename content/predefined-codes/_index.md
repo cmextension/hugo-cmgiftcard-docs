@@ -4,7 +4,7 @@ weight: 40
 ---
 CM Gift Card allows you to use your own gift card codes, this helps you control what codes are available. For example you can generate your coupon codes from your ecommerce (shopping cart) application and import these codes into CM Gift Card, after gift card code is delivered to customer, he/she can use it to buy for your products in your ecommerce software instantly.
 
-You can access Predefined Gift Card Codes section via Joomla!'s left navigation.
+You can access Predefined Gift Card Codes section via Joomla!'s left menu.
 
 ![](/images/predefined_code_01.jpg)
 
