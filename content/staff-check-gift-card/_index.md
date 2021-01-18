@@ -9,18 +9,18 @@ To do this, you need to create Joomla! user accounts for your staff members, add
 
 ![](/images/configuration_03.jpg)
 
-Create a new menu item with "Check Gift Cards" menu item type.
+Create new menu items for `Check Gift Cards` and `Check Gift Card Detail (hidden menu item)` menu item types.
 
 ![](/images/menu_item_types.jpg)
 
-In your front-end, if you access this new menu item as a regular user (the one who is not in Staff group), you will receive error:
+In your front-end, if you access the new menu item for `Check Gift Cards` as a regular user (the one who is not in Staff group), you will receive an error:
 
-![](/images/staff_02.jpg)
+![](/images/staff_01.jpg)
 
 If you log in as a staff member, you can see all the gift cards and filter for the gift card you want to check the information.
 
-![](/images/staff_03.jpg)
+![](/images/staff_02.jpg)
 
 Click on gift card code to view gift card's detail.
 
-![](/images/staff_04.jpg)
+![](/images/staff_03.jpg)

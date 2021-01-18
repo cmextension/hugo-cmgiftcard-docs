@@ -8,20 +8,18 @@ Each hosting has its own way to setup cron job. If you are not sure how to setup
 
 The general command to run CM Gift Card cron job is:
 
-php5 /path/to/your/joomla/administrator/components/com\_cmgiftcard/cron.php
+`wget https://yourdomain.com/index.php?option=com_cmgiftcard&task=cron.deliverElectronicCards&key=YOUR_SECRET_KEY_HERE > /dev/null 2>&1`
 
-"php5" is the command of PHP CLI. Depending on your server's setup, the command could be different, you need to contact your hosting provider for knowing the correct command.
+or 
 
-If the path to Joomla!'s installation folder is
+`curl https://yourdomain.com/index.php?option=com_cmgiftcard&task=cron.deliverElectronicCards&key=YOUR_SECRET_KEY_HERE > /dev/null 2>&1`
 
-/home/username/public\_html/
+Replace `https://yourdomain.com` with your site's URL and replace `YOUR_SECRET_KEY_HERE` with the secret key which you configure in CM Gift Card's configuration.
 
-the path to the cron job file could be
+If you want to test if the URL above sends gift cards or not, you can access it directly on your browser, you will receive messages in this format if there are gift cards sent:
 
-/home/username/public\_html/administrator/components/com\_cmgiftcard/cron.php
+`Sent email for card #12345`
 
-Once the cron job runs, it checks for the gift cards which should be sent on the current date and send them to recipients.
+If there is no gift cards to send, you will get this message:
 
-You need to enter your site's URL into "Site URL" option in CM Gift Card's configuration to help cron job script know your site's URL.
-
-![](/images/configuration_06.jpg)
+`No electronic gift cards found`
