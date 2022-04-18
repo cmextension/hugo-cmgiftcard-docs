@@ -31,4 +31,5 @@ weight: 2
 * [Paybox](https://paybox.com)
 * [PayPal](https://paypal.com)
 * [Unicredit](https://unicredit.it)
+* [Stripe](https://stripe.com/)
 * [VoguePay](https://voguepay.com)
