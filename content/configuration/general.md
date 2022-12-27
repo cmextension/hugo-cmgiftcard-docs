@@ -10,4 +10,5 @@ weight: 10
 * **Terms of Service**: Show or hide Terms of Service checkbox when checkout.
 * **Terms of Service Menu Item**: The menu item of Terms of Service page, this page is opened when we click on the Terms of Service link in checkout page.
 * **Max Delivered Gift Cards In Every Cron Job Run**: The maximum quantity of electronic gift card email is sent every time cron job runs. Too many emails sent could lead to an timeout error.
-* **Cron Job's Secret Key**: The key is used in cron job's URL, eg. `yourdomain.com/index.php?option=com_cmgiftcard&task=cron.deliverElectronicCards&key=YOUR_KEY_HERE`. If the key is not provided, cron job doesn't run. 
+* **Cron Job's Secret Key**: The key is used in cron job's URL, eg. `yourdomain.com/index.php?option=com_cmgiftcard&task=cron.deliverElectronicCards&key=YOUR_KEY_HERE`. If the key is not provided, cron job doesn't run.
+* **Date Format**: The date format that is used for the delivery date in front-end.
