@@ -2,11 +2,14 @@
 title: Email Templates
 weight: 50
 ---
-There are 3 types of email in CM Gift Card:
+There are 6 types of email in CM Gift Card:
 
 * Sent to gift card sender when order is completed.
 * Sent to gift card recipient to deliver electronic gift card.
 * Sent to gift card sender when electronic gift card is sent to recipient.
+* Sent to gift card sender when order is placed with Bank Transfer payment method.
+* Sent to admins when physical gift card is ordered.
+* Sent to admins when order is placed with Bank Transfer payment method.
 
 You can compose its content by going to `Email Templates` section.
 
